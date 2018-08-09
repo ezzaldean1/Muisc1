@@ -13,11 +13,11 @@ client.on('ready', () => {
   console.log(' Mo1 Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type ohelp",{type: 'WATCHING'})
+    client.user.setActivity(" Type 1help",{type: 'WATCHING'})
 	
 });
 	
-            var prefix = "o" ;
+            var prefix = "1" ;
 	
 	
 	/*
@@ -31,7 +31,7 @@ npm install queue
 */
 client.on('message', msg => {
 
-    if (msg.content == 'oplay') {
+    if (msg.content == '1play') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
